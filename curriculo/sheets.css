@@ -1,0 +1,54 @@
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+;
+background-color: aliceblue;
+padding: 3px;
+}
+
+h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+;
+border: 2px solid;
+border-radius: 12px;
+background-color: azure;
+box-shadow: 5px 5px cadetblue;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+;
+border: 2px solid;
+border-radius: 12px;
+background-color: azure;
+box-shadow: 5px 5px cadetblue;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+h3{
+    padding-bottom: 0%;
+}
+
+
+.instituição{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: large;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.periodo{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: medium;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.função{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: large;
+padding-top: 0px;
+padding-bottom: 0px;
+}

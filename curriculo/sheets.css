@@ -28,9 +28,21 @@ padding-bottom: 0px;
 }
 
 h3{
-    padding-bottom: 0%;
+padding-bottom: 0%;
 }
 
+.atribuicoes{
+padding-left: 10px;
+list-style-type: disc;
+}
+
+.idiomas{
+list-style-type:none;
+}
+
+.certificados{
+    list-style-type: disc;
+}
 
 .instituição{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

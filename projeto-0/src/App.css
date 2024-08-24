@@ -3,10 +3,22 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: azure;
 }
 
-submit {
+.botão{
   stroke: black;
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: azure;
+  box-shadow: 2px 2px cadetblue;
+}
+
+.tituloQuestionario{
+  border: 2px solid;
+  border-radius: 12px;
+  background-color: azure;
+  box-shadow: 5px 5px cadetblue;
 }
 
 .logo {

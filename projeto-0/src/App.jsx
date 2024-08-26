@@ -1,9 +1,8 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 
 const Questionario = () => {
   const [respostas, setRespostas] = useState({});
-  const [resultado, setResultado] = useState(null);
 
   const respostasCorretas = {
     questao1: 'CSS',
@@ -23,7 +22,7 @@ const Questionario = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const acertos = validarRespostas();
-    setResultado(`Você acertou ${acertos} de 5 questões.`);
+    alert(`Você acertou ${acertos} de 5 questões.`);
   };
 
   const validarRespostas = () => {
@@ -37,9 +36,8 @@ const Questionario = () => {
   };
 
   return (
-    
     <div>
-       <h1 className='tituloQuestionario'>Questionário</h1>
+      <h1 className='tituloQuestionario'>Questionário</h1>
       <form onSubmit={handleSubmit}>
         <div className="questao">
           <p><b>1.</b> Qual é a linguagem de estilo utilizada para descrever a apresentação visual de um documento HTML?</p>
@@ -213,11 +211,8 @@ const Questionario = () => {
         </div>
         <br></br>
 
-
         <button type="submit" className='botão'>Enviar Respostas</button>
       </form>
-
-      {resultado && <p>{resultado}</p>}
     </div>
   );
 };

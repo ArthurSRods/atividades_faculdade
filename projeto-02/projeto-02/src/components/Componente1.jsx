@@ -10,14 +10,16 @@ const Componente1 = () => {
 
     return(
         <>
-        <div>
-        <button onClick={() => alert("Os nomes estão em ordem alfabética, inclusive nas listas anteriores!")}>
+        <section className='container'>
+        <div className='container'>
+        <button className='botao' onClick={() => alert("Os nomes estão em ordem alfabética, inclusive nas listas anteriores!")}>
         Clique Aqui
     </button>
    
-        <div><button onClick = {handleClick}> Clique com Função</button></div>
-        <div><button onClick = {callNames}> Clique com Função</button></div>    
+        <button className='botao' onClick = {handleClick}> Clique com Função</button>
+        <button className='botao' onClick = {callNames}> Clique com Função</button>    
         </div>
+        </section>
         </>
     )
 }

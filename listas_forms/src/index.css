@@ -13,14 +13,41 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.conteiner{
+.conteiner {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
   background-color: #f9f9f9;
-  padding: 3px;
-  margin: auto;
-  box-sizing: auto;
-  border-radius: 5px;
-  display: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.conteiner h1 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.conteiner ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.conteiner li {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #555;
+}
+
+.conteiner li:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
 
 a {
   font-weight: 500;
